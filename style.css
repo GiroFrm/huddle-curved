@@ -58,7 +58,9 @@ p, h1, h2, h3, h4, h5, h6 {
     --fw-black: 600;
     --fw-bold: 700;
 
-    /* 14rem;
+    /* 
+    9px
+    14rem;
     15.25rem;
     16rem
     20rem 
@@ -81,7 +83,16 @@ body{
     font-size: var(--fs-100);
 
     padding-top: 1.75rem;
+    font-size: var(--fs-100);
 
+}
+
+.ff-accent{
+    font-family: var(--ff-accent);
+}
+
+.mg-bottom-600{
+    margin-bottom: 6.5rem;
 }
 
 .wrapper{
@@ -101,7 +112,7 @@ body{
     height: 1rem;
 }
 
-.hero-btn{
+.header-btn{
    font-size: var(--fs-80); 
    color:var(--clr-primary-400);
    background-color: #fff;
@@ -111,4 +122,31 @@ body{
    padding: 0.56em 2em;
    font-weight: var(--fw-regular);
    cursor:pointer;
+}
+
+
+.hero{
+    text-align: center;
+    padding-inline: 2.5rem;
+}
+
+.hero-title{
+font-size: var(--fs-450);
+font-weight: var(--fw-bold );
+padding-inline:0.5rem;
+margin-bottom: 1.5rem;
+}
+
+.hero-description{
+    margin-bottom: 3rem;
+}
+
+.primary-btn{
+    border: none;
+    background-color: var(--clr-primary-400);
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.91em 3.3em;
+    font-weight: var(--fw-black);
+    border-radius: 100vw;
 }
