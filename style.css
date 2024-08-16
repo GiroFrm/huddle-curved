@@ -1,6 +1,4 @@
-*
-  1. Use a more-intuitive box-sizing model.
-*/
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -67,6 +65,7 @@ p, h1, h2, h3, h4, h5, h6 {
     24rem
     60rem
     */
+
     --fs-80: 0.5881rem;
     --fs-100: 0.875rem;  
     --fs-150: 0.9525rem; 
@@ -74,4 +73,42 @@ p, h1, h2, h3, h4, h5, h6 {
     --fs-400: 1.25rem;
     --fs-450: 1.5rem;
     --fs-700: 3.75rem;
+}
+
+body{
+
+    font-family: var(--ff-base);
+    font-size: var(--fs-100);
+
+    padding-top: 1.75rem;
+
+}
+
+.wrapper{
+    padding-inline: 1.5rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 7rem;
+}
+
+.header-logo{
+    width: 6rem;
+    height: 1rem;
+}
+
+.hero-btn{
+   font-size: var(--fs-80); 
+   color:var(--clr-primary-400);
+   background-color: #fff;
+   border: none;
+   border: 1px solid var(--clr-primary-400);
+   border-radius: 1rem;
+   padding: 0.56em 2em;
+   font-weight: var(--fw-regular);
+   cursor:pointer;
 }
