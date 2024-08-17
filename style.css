@@ -150,3 +150,20 @@ margin-bottom: 1.5rem;
     font-weight: var(--fw-black);
     border-radius: 100vw;
 }
+
+.stats{
+    display: grid;
+    place-content: center; 
+    text-align: center;
+}
+
+.stats img {
+    width: 29px;
+    
+}
+
+.stats-value{
+    font-size: var(--fs-700);
+    font-weight: var(--fw-bold);
+    line-height: 1.3;
+}
