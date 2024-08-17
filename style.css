@@ -187,6 +187,8 @@ margin-bottom: 1.5rem;
     display: grid;
 
     gap: 7.5rem;
+
+
 }
 
 .grid-flow{
@@ -211,4 +213,16 @@ margin-bottom: 1.5rem;
    font-weight: var(--fw-bold);
    
    margin-bottom: 1rem;
+}
+
+.CTA {
+    text-align: center;
+    margin-bottom: 15.6rem;
+}
+
+.CTA-title{
+    font-size: var(--fs-450);
+    font-weight: var(--fw-bold);
+
+    margin-bottom: 2.5rem;
 }
