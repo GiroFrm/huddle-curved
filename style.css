@@ -226,3 +226,56 @@ margin-bottom: 1.5rem;
 
     margin-bottom: 2.5rem;
 }
+
+.footer{
+    background-color: var(--clr-neutral-1000);
+    padding-top: 100px;
+    color: white;
+    text-align: left;
+
+    display: grid;
+    gap: 6rem;
+}
+
+.secondary-title{
+    font-size: var(--fs-400);
+    font-weight: var(--fw-bold);
+
+    margin-bottom: 1rem;
+}
+
+.footer-description{
+    margin-bottom: 2.5rem;
+}
+
+.email{
+    display: block;
+    width: 100%;
+    border-radius: 0.5em;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.input-btn{
+    float: right;
+    border-radius: 0.5em;
+    font-size: 1rem;
+}
+
+.secondary-logo{
+    margin-bottom: 1rem;
+}
+
+.flex-group{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mg-bottom-16{
+    margin-bottom:1rem;
+}
+
+.mg-bottom-40{
+    margin-bottom: 2.5rem;
+}
