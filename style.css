@@ -279,3 +279,12 @@ margin-bottom: 1.5rem;
 .mg-bottom-40{
     margin-bottom: 2.5rem;
 }
+
+.mg-bottom-48{
+    margin-bottom: 3rem;
+}
+
+.socials{
+    display: flex;
+    gap: 1rem;
+}
