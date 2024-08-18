@@ -276,13 +276,18 @@ margin-bottom: 1.5rem;
 
 .services{
     text-align: center;
-    /* display: grid; */
+    display: grid;
 
     gap: 7.5rem;
 
 }
 
 @media(min-width: 1000px){
+
+    .services{
+        font-size: 1rem;
+    }
+
     .flex-group{
         display: flex;
         align-items: center;
@@ -320,6 +325,12 @@ margin-bottom: 1.5rem;
    margin-bottom: 1rem;
 }
 
+@media(min-width: 1000px){
+    .service-title{
+        font-size: 2.5rem;
+    }
+}
+
 .CTA {
     text-align: center;
     margin-bottom: 15.6rem;
@@ -330,6 +341,12 @@ margin-bottom: 1.5rem;
     font-weight: var(--fw-bold);
 
     margin-bottom: 2.5rem;
+}
+
+@media(min-width: 1000px){
+.CTA-title{
+    font-size: 2.5rem;
+}
 }
 
 .footer{
