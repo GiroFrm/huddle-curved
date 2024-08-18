@@ -77,14 +77,27 @@ p, h1, h2, h3, h4, h5, h6 {
     --fs-700: 3.75rem;
 }
 
+@media(min-width: 1000px){
+    :root{
+        --fs-80: 1rem;
+    }
+}
+
 body{
 
     font-family: var(--ff-base);
     font-size: var(--fs-100);
 
     padding-top: 1.75rem;
+
     font-size: var(--fs-100);
 
+}
+
+@media(min-width: 1000px){
+    body{
+        padding-top: 5rem;
+    }
 }
 
 .ff-accent{
@@ -101,6 +114,12 @@ body{
 
 .wrapper{
     padding-inline: 1.5rem;
+}
+
+@media(min-width: 1000px){
+    .wrapper{
+        padding-inline: 5rem;
+    }
 }
 
 .padding-inline-175{
@@ -126,7 +145,7 @@ body{
    background-color: #fff;
    border: none;
    border: 1px solid var(--clr-primary-400);
-   border-radius: 1rem;
+   border-radius: 100vw;
    padding: 0.56em 2em;
    font-weight: var(--fw-regular);
    cursor:pointer;
