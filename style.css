@@ -276,11 +276,25 @@ margin-bottom: 1.5rem;
 
 .services{
     text-align: center;
-    display: grid;
+    /* display: grid; */
 
     gap: 7.5rem;
 
 }
+
+@media(min-width: 1000px){
+    .flex-group{
+        display: flex;
+        align-items: center;
+        text-align: left;
+        flex-direction: row-reverse;
+    }
+    .conversations{
+        flex-direction: row;
+    }
+}
+
+
 
 .grid-flow{
     display: grid;
