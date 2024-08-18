@@ -338,8 +338,15 @@ margin-bottom: 1.5rem;
     color: white;
     text-align: left;
 
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 6rem;
+}
+
+@media(min-width: 1000px){
+    .footer{
+        flex-direction: row-reverse;
+    }
 }
 
 .secondary-title{
@@ -357,8 +364,20 @@ margin-bottom: 1.5rem;
     display: block;
     width: 100%;
     border-radius: 0.5em;
-    padding: 0.8rem;
+    padding: 0.9rem;
     margin-bottom: 1rem;
+}
+
+@media(min-width: 1000px){
+    form{
+        display:flex;
+        align-items: center;
+        gap:2.5rem;
+        
+    }
+    .email{
+        margin-bottom: 0;
+    }
 }
 
 .input-btn{
@@ -371,7 +390,7 @@ margin-bottom: 1.5rem;
     margin-bottom: 1rem;
 }
 
-.flex-group{
+.flex-contacts{
     display: flex;
     align-items: center;
     gap: 1rem;
