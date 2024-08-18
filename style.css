@@ -92,6 +92,8 @@ body{
 
     font-size: var(--fs-100);
 
+    
+
 }
 
 .grid-flow{
@@ -99,15 +101,18 @@ body{
     place-content: center;
 }
 
-.flex-group{
-    display: flex;
-    flex-direction: column;
-}
+
 
 @media(min-width: 1000px){
     body{
         padding-top: 5rem;
     }
+    .flex-group{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
 }
 
 .ff-accent{
@@ -240,12 +245,21 @@ margin-bottom: 1.5rem;
 }
 
 .stats{
-    display: grid;
-    place-content: center; 
+    display: flex;
+   flex-direction: column; 
+   align-items: center;
     gap:5.5rem;
-
+    padding-inline: 3rem;
     outline: 3px solid red;
     
+}
+
+@media(min-width: 1000px){
+    .stats{
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
 }
 
 .stats img {
@@ -265,7 +279,6 @@ margin-bottom: 1.5rem;
     display: grid;
 
     gap: 7.5rem;
-
 
 }
 
